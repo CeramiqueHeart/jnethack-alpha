@@ -644,7 +644,7 @@ int *dmg_p; /* for dishing out extra damage in lieu of Int loss */
             Sprintf(killer.name, "unwisely ate the brain of %s", pd->mname);
             killer.format = NO_KILLER_PREFIX;
 #else
-            Sprintf(killer.name, "‹ð‚©‚É‚à%s‚Ì‘Ì‚ðH‚×‚Ä", pd->mname);
+            Sprintf(killer.name, "‹ð‚©‚É‚à%s‚Ì”]‚ðH‚×‚Ä", pd->mname);
             killer.format = KILLED_BY;
 #endif
             done(DIED);
