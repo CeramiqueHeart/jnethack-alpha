@@ -868,7 +868,7 @@ register int pm;
 /*JP
             You("don't feel very well.");
 */
-            You("すごく気分が悪い．");
+            You("あまり気分がよくない．");
             make_slimed(10L, (char *) 0);
             delayed_killer(SLIMED, KILLED_BY_AN, "");
         }
