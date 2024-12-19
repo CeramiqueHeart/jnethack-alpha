@@ -27,7 +27,7 @@ make install
 
 NetHackのビルド環境に加えて `GCC@9以上`, `nkf` が必要です。XCodeに含まれている`gcc`ではビルドできませんので、homebrewでインストールしてください。
 
-設定ファイルはGCC@9を前提として書かれています。それ以外のバージョンの場合は`sys/unix/hints` と `japanese/set_mac.sh` の修正が必要です。
+設定ファイルはGCC@13を前提として書かれています。それ以外のバージョンの場合は`sys/unix/hints` と `japanese/set_mac.sh` の修正が必要です。
 
 ```
 ./configure

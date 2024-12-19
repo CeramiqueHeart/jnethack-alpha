@@ -24,7 +24,7 @@ jobs:
 
     - name: macos_prereq
       if: runner.os == 'macOS'
-      run: brew install nkf gcc@9
+      run: brew install nkf gcc@13
 
     - name: configure
       run: ./configure
