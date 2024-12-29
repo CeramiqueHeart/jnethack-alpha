@@ -31,7 +31,7 @@ JNetHack 3.4.* から変更された主な点は以下の通りです。
 
 JNetHack では二つのレポジトリを使っています。
 
-### メインレポジトリ https://osdn.net/projects/jnethack/scm/git/source/
+### メインレポジトリ https://github.com/jnethack/jnethack-release
 
 ある程度確認したソースコードが登録されます。原則としてrebaseはしません。
 
